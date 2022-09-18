@@ -14,8 +14,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/PachGit/Media-Search-bot",
-    "repository": "https://github.com/PachGit/Media-Search-bot",
+    "website": "https://github.com/Bastinjoeid/Tom",
+    "repository": "https://github.com/Bastinjoeid/Tom",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",

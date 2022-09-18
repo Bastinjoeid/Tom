@@ -66,8 +66,8 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Owner', url='https://t.me/Ramanan_TG'),
-                        InlineKeyboardButton('Group', url='https://t.me/Cinema_Beacon_Group')
+                        InlineKeyboardButton('Owner', url='https://t.me/sovel_jaison'),
+                        InlineKeyboardButton('Group', url='https://t.me/CINEMA_HUB_GROUP')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -99,8 +99,8 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Owner", url='https://t.me/Ramanan_TG'),
-                        InlineKeyboardButton("Group", url="https://t.me/Cinema_Beacon_Group")
+                        InlineKeyboardButton("Owner", url='https://t.me/sovel_jaison'),
+                        InlineKeyboardButton("Group", url="https://t.me/CINEMA_HUB_GROUP")
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
@@ -192,8 +192,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Group 1', url='https://t.me/Cinema_Beacon_Group'),
-            InlineKeyboardButton('Group 2', url='https://t.me/Cinema_Company_Malayalam')
+            InlineKeyboardButton('Group 1', url='https://t.me/CINEMA_HUB_GROUP'),
+            InlineKeyboardButton('Group 2', url='https://t.me/CN_HUB00')
         ]
         ]
-    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nOwner : <a href='https://t.me/Ramanan_TG'>Ramanan</a>\nGroup : <a href='https://t.me/Cinema_Beacon_Group'>📀 ᴄɪɴᴇᴍᴀ ʙᴇᴀᴄᴏɴ 📀</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nOwner : <a href='https://t.me/sovel_jaison'>SOVEL JAISON</a>\nGroup : <a href='https://t.me/CINEMA_HUB_GROUP'>📀 Cinema Hub 📀</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
